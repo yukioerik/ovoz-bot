@@ -88,7 +88,7 @@ def home():
 
 def run_bot():
     bot.polling(none_stop=True)
-if name == 'main':
+if __name__ == '__main__':
     # Telegram botni alohida orqa fonda ishga tushiramiz
     threading.Thread(target=run_bot).start()
     # Veb-serverni ishga tushiramiz
