@@ -1,4 +1,4 @@
-[26/08/2026 13:02] Fefe: import telebot
+import telebot
 import sqlite3
 import threading
 import os
