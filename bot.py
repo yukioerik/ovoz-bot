@@ -88,7 +88,7 @@ def home():
 
 def run_bot():
     bot.polling(none_stop=True)
-[26/08/2026 13:02] Fefe: if name == 'main':
+if name == 'main':
     # Telegram botni alohida orqa fonda ishga tushiramiz
     threading.Thread(target=run_bot).start()
     # Veb-serverni ishga tushiramiz
