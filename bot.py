@@ -80,7 +80,7 @@ def handle_photos(message):
         user_states.pop(chat_id, None)
 
 # --- 4. RENDER UCHUN SOXTA VEB-SERVER VA ISHGA TUSHIRISH ---
-app = Flask(name)
+app = Flask(__name__)
 
 @app.route('/')
 def home():
